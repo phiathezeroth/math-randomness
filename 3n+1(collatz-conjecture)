@@ -1,0 +1,12 @@
+n = int(input("input number: "))
+
+while n != 1:
+    if n % 2 == 0:
+        n = n/2
+        print(int(n))
+    elif n % 2 == 1:
+        n = 3*n + 1
+        print(int(n))
+
+# tbh i'm really happy with myself for the length of the code
+# also unpopular opinion but i hope the collatz conjecture is false .-.
