@@ -1,0 +1,19 @@
+print("fibonacci sequence time yaaaaaaas\n")
+f0 = 0
+f1 = 1
+a = 1
+
+print(f0)
+
+while True:
+    f2 = f0 + f1
+    f1 = f0
+    f0 = f2
+    print(f0)
+    if a == 6:
+        x = input()
+        a = 0
+    a = a + 1
+
+# could this be shorter and more efficient? probably
+# but am i also a novice who is pretty proud of herself for making this regardless of length? yes
